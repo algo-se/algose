@@ -1,5 +1,5 @@
-baseURL: "https://pbi-blog.firebaseapp.com/"
-title: Ale BI
+baseURL: "https://algose.dev/"
+title: algose.dev
 paginate: 5
 theme: PaperMod
 
@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+googleAnalytics: G-0KFSPDJVN7
 
 minify:
   disableXML: true
@@ -16,12 +16,12 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Ale BI
+  title: algo-se-bi
   description: "Workspace donde escribo sobre BI en general y Power BI en particular"
   keywords: [Blog, Portfolio, PaperMod]
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2-Jan-2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: auto
   disableThemeToggle: false
   defaultContentLanguage: "es"
 
@@ -70,7 +70,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "G-0KFSPDJVN7"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
@@ -82,9 +82,9 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    URL: "https://github.com/algo-se/algose/tree/main/algo-se-bi/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
 
   # for search
   # https://fusejs.io/api/options.html
